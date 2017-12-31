@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<body>
+		<div id="menu-centerthongbao" class="col-md-12">
+			<span><i class="glyphicon glyphicon-user" style="padding:15px;"></i>Đăng Thông Báo</span>
+        </div>
+        <div class="col-md-12 menu-center thongtincanhan" id="menu-centernoidung">
+            <form id="IDDangThongBao" class="col-md-12" method="post">
+            	<div class="col-md-12 col-xs-12 col-sm-12">
+                    <div class="col-sm-6 col-xs-12 col-md-6">
+                            <span><label>Khoa:</label></span>
+                            <select>
+                                <option>Khoa CNTT</option>
+                                <option>Khoa Xây Dựng</option>
+                                <option>CKM</option>
+                                <option>CNM</option>
+                            </select>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 col-md-6">
+                        <span><label>Khóa:</label></span>
+                        <select disabled="disabled">
+                            <option>Năm 2017-2018</option>
+                            <option>Năm 2018-2019</option>
+                            <option>Năm 2019-2020</option>
+                        </select>
+                        
+                    </div>
+                </div>
+ 				<div class="col-md-12 col-xs-12 col-sm-12">
+                    <div class="col-sm-6 col-xs-12 col-md-6">
+                        <span><label>Môn :</label></span>
+                        <select>
+                            <option>Thiết Kế Web</option>
+                            <option>Lập Trình Web</option>
+                            <option>CNPM</option>
+                            <option selected="selected">Mạng MT</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 col-md-6">
+                        <span><label>Học Kì :</label></span>
+                        <select>
+                            <option>Hoc Kì 1</option>
+                            <option>Hoc Ki 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <span><label>Nội Dung Chính:</label></span>
+                    <textarea  rows="5" class="col-md-12 noidung form-control"  id="txtanoidungchinh"style="width:100%"></textarea>
+                </div>
+                <div class="col-md-12">
+                	<span class="error" id="error-noidungchinh"></span>
+                </div>
+                <div class="col-md-12">
+                    <span><label>Nội Dung:</label></span>
+                        <textarea rows="15" class="col-md-12 noidung form-control" id="txtanoidungphu" style="width:100%"></textarea>
+                </div>
+                
+                <div class="col-md-12">
+                	<span class="error" id="error-noidungphu"></span>
+                </div>
+                
+                <div class="col-md-3 col-md-offset-5" style="margin-top:10px;"></button>
+                	<button class="btn btn-primary btn-lg active" id="btnthongbao_dinhkemfile">
+                		<i class="glyphicon glyphicon-file" style="padding-right:5px;"></i>
+                		Đính Kèm file</button>
+                </div>
+                <div class="col-md-3" style="margin-top:10px; margin-left:27px;">
+                	<button class="btn btn-primary btn-lg active" id="btndangthongbao" type="submit">Đăng Thông Báo</button>
+                </div>
+            </form>
+            
+        </div>
+</body>
+</html>

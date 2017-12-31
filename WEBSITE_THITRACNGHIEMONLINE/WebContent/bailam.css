@@ -1,0 +1,22 @@
+#dongho{
+	margin: 30px;
+	font-size: 5em;
+	font-weight: bold;
+	color: red;
+}
+#thongtinsinhvien{
+			
+					margin:10px;
+					padding:25px;
+					background:teal;
+					color:white;
+					display:none;
+					;	
+}
+body{
+	background: #9FF;
+}
+.navbar
+{
+	background: #3399ff;
+}

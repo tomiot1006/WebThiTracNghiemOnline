@@ -1,0 +1,90 @@
+body{
+background:white;
+ padding-top: 70px;
+}
+.navbar
+{
+	background: #3399ff;
+}
+#thongtinsinhvien{
+			
+					margin:10px;
+					padding:25px;
+					background:teal;
+					color:white;
+					display:none;
+					;	
+}
+#xemthongbao{margin:10px;
+					padding:25px;
+					background:teal;
+					color:white;
+					display:none;
+float:left;}
+.chinhbutton{
+	padding-top:10px;
+	}
+.maubutton{
+	background:#666;
+	width:300px;
+	}
+.hover_red:hover{
+	color: red;
+	text-decoration: none;
+
+}
+.date_time{
+	font-size: 10px;
+}
+#showthongbao{
+	border: solid 2px black;
+}
+#showthongtincanhan{
+	border:  solid 2px black;
+	background: black;
+}
+#form{
+background-color:#84e184;
+height:auto;
+padding:5px 40px 40px 40px;
+	}
+#showxemdiem{
+	background:teal;
+					color:white;
+					display:none;
+}
+.chat-bubble {
+			  background-color:#EDEDED;
+			  border:2px solid #666666;
+			  font-size:35px;
+			  line-height:1.3em;
+			  margin:10px auto;
+			  padding:10px;
+			  position:relative;
+			  text-align:center;
+			  width:300px;
+			  -moz-border-radius:10px;
+			  -webkit-border-radius:10px;
+			  -moz-box-shadow:0 0 5px #888888;
+			  -webkit-box-shadow:0 0 5px #888888;
+			}
+			.chat-bubble-arrow-border {
+			  border-color: #666666 transparent transparent transparent;
+			  border-style: solid;
+			  border-width: 10px;
+			  height:0;
+			  width:0;
+			  position:absolute;
+			  bottom:-22px;
+			  left:30px;
+			}
+			.chat-bubble-arrow {
+			  border-color: #EDEDED transparent transparent transparent;
+			  border-style: solid;
+			  border-width: 10px;
+			  height:0;
+			  width:0;
+			  position:absolute;
+			  bottom:-19px;
+			  left:30px;
+			}

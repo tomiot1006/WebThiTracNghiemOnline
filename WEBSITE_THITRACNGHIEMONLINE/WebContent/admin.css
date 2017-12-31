@@ -1,0 +1,30 @@
+.table-bordered{
+	border:solid 2px #3399ff;
+	
+}
+body{
+	background:white;
+}
+.navbar
+{
+	background: #3399ff;
+}
+th{
+    text-align: center;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+}
+td{
+    text-align: center;
+     border-bottom: 2px solid black;
+}
+tr:hover {
+    background-color: #01A9DB;
+}
+#marq{
+	height: 400px;
+}
+#myNavbar
+{
+	
+}
